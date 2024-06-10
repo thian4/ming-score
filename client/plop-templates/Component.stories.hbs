@@ -1,0 +1,23 @@
+import React from 'react'
+import { ThemeProvider } from 'styled-components'
+import {{pascalCase name}}, { type {{pascalCase name}}Props } from './{{pascalCase name}}'
+
+export default {
+  component: {{pascalCase name}},
+  parameters: {
+    previewTabs: {
+      canvas: { hidden: true },
+    },
+    viewMode: 'docs',
+  },
+}
+
+const Template: ComponentStory<typeof {{pascalCase name}}> = (args) => (
+    <{{pascalCase name}} {...args} />
+)
+
+export const Default = Template.bind({})
+
+Default.args = {
+  text: 'my text props!',
+} as {{pascalCase name}}Props

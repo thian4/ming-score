@@ -1,0 +1,29 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+            "584VSD78G3.com.90seconds.creator.local",
+            "584VSD78G3.com.90seconds.creator.staging",
+            "584VSD78G3.com.90seconds.creator",
+            "584VSD78G3.com.90seconds.producer.local",
+            "584VSD78G3.com.90seconds.producer.staging",
+            "584VSD78G3.com.90seconds.producer",
+            "584VSD78G3.com.boldbumblebees.-0-Seconds.local",
+            "584VSD78G3.com.boldbumblebees.-0-Seconds.staging",
+            "584VSD78G3.com.boldbumblebees.-0-Seconds"
+        ],
+        "components": [
+          {
+            "/": "/videos/*",
+            "comment": "Matches a video object in the Content app"
+          },
+          {
+            "/": "/share/*",
+            "comment": "Matches a share link from the Content app"
+          }
+        ]
+      }
+    ]
+  }
+}
